@@ -13,6 +13,15 @@
 		F5115634256C1EED0020C29A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5115632256C1EED0020C29A /* Main.storyboard */; };
 		F5115636256C1EF30020C29A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5115635256C1EF30020C29A /* Assets.xcassets */; };
 		F5115639256C1EF30020C29A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5115637256C1EF30020C29A /* LaunchScreen.storyboard */; };
+		F5115642256C22B60020C29A /* PageControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5115641256C22B60020C29A /* PageControlViewController.swift */; };
+		F58221F7256CDB2D00E0BD92 /* XboxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58221F6256CDB2D00E0BD92 /* XboxViewController.swift */; };
+		F58221FA256CF4B000E0BD92 /* intro.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F58221F9256CF4B000E0BD92 /* intro.mp4 */; };
+		F5822201256D3E0600E0BD92 /* OneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5822200256D3E0600E0BD92 /* OneViewController.swift */; };
+		F5822204256D400E00E0BD92 /* TwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5822203256D400E00E0BD92 /* TwoViewController.swift */; };
+		F5822207256D423900E0BD92 /* ThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5822206256D423900E0BD92 /* ThreeViewController.swift */; };
+		F582220A256D42AB00E0BD92 /* speed.mov in Resources */ = {isa = PBXBuildFile; fileRef = F5822209256D42AB00E0BD92 /* speed.mov */; };
+		F582220D256D48E800E0BD92 /* FourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F582220C256D48E800E0BD92 /* FourViewController.swift */; };
+		F5822210256D6F5100E0BD92 /* GameControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F582220F256D6F5100E0BD92 /* GameControlViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +33,15 @@
 		F5115635256C1EF30020C29A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F5115638256C1EF30020C29A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F511563A256C1EF30020C29A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5115641256C22B60020C29A /* PageControlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControlViewController.swift; sourceTree = "<group>"; };
+		F58221F6256CDB2D00E0BD92 /* XboxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XboxViewController.swift; sourceTree = "<group>"; };
+		F58221F9256CF4B000E0BD92 /* intro.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = intro.mp4; sourceTree = "<group>"; };
+		F5822200256D3E0600E0BD92 /* OneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneViewController.swift; sourceTree = "<group>"; };
+		F5822203256D400E00E0BD92 /* TwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoViewController.swift; sourceTree = "<group>"; };
+		F5822206256D423900E0BD92 /* ThreeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeViewController.swift; sourceTree = "<group>"; };
+		F5822209256D42AB00E0BD92 /* speed.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = speed.mov; sourceTree = "<group>"; };
+		F582220C256D48E800E0BD92 /* FourViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourViewController.swift; sourceTree = "<group>"; };
+		F582220F256D6F5100E0BD92 /* GameControlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameControlViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +75,17 @@
 			isa = PBXGroup;
 			children = (
 				F511562C256C1EED0020C29A /* AppDelegate.swift */,
+				F5115641256C22B60020C29A /* PageControlViewController.swift */,
+				F58221F6256CDB2D00E0BD92 /* XboxViewController.swift */,
 				F511562E256C1EED0020C29A /* SceneDelegate.swift */,
 				F5115630256C1EED0020C29A /* ViewController.swift */,
+				F5822206256D423900E0BD92 /* ThreeViewController.swift */,
+				F582220F256D6F5100E0BD92 /* GameControlViewController.swift */,
+				F5822200256D3E0600E0BD92 /* OneViewController.swift */,
+				F582220C256D48E800E0BD92 /* FourViewController.swift */,
+				F5822203256D400E00E0BD92 /* TwoViewController.swift */,
+				F58221F9256CF4B000E0BD92 /* intro.mp4 */,
+				F5822209256D42AB00E0BD92 /* speed.mov */,
 				F5115632256C1EED0020C29A /* Main.storyboard */,
 				F5115635256C1EF30020C29A /* Assets.xcassets */,
 				F5115637256C1EF30020C29A /* LaunchScreen.storyboard */,
@@ -124,9 +151,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F58221FA256CF4B000E0BD92 /* intro.mp4 in Resources */,
 				F5115639256C1EF30020C29A /* LaunchScreen.storyboard in Resources */,
 				F5115636256C1EF30020C29A /* Assets.xcassets in Resources */,
 				F5115634256C1EED0020C29A /* Main.storyboard in Resources */,
+				F582220A256D42AB00E0BD92 /* speed.mov in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,9 +166,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5822210256D6F5100E0BD92 /* GameControlViewController.swift in Sources */,
 				F5115631256C1EED0020C29A /* ViewController.swift in Sources */,
+				F58221F7256CDB2D00E0BD92 /* XboxViewController.swift in Sources */,
 				F511562D256C1EED0020C29A /* AppDelegate.swift in Sources */,
+				F5822207256D423900E0BD92 /* ThreeViewController.swift in Sources */,
+				F5822201256D3E0600E0BD92 /* OneViewController.swift in Sources */,
+				F5822204256D400E00E0BD92 /* TwoViewController.swift in Sources */,
 				F511562F256C1EED0020C29A /* SceneDelegate.swift in Sources */,
+				F5115642256C22B60020C29A /* PageControlViewController.swift in Sources */,
+				F582220D256D48E800E0BD92 /* FourViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
